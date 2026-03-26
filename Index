@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -208,6 +207,5 @@ function lb(el){document.getElementById('lb-img').src=el.querySelector('img').sr
 function closelb(){document.getElementById('lb').classList.remove('on');document.body.style.overflow=''}
 document.addEventListener('keydown',function(e){if(e.key==='Escape')closelb()});
 </script>
-
 </body>
 </html>
